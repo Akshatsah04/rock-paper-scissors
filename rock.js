@@ -72,12 +72,18 @@ button.addEventListener("click" , ()=>{
         body.style.backgroundColor = "black";
         para.forEach((p)=>{
             p.style.color= "white";
+        });
+        choices.forEach((i)=>{
+            i.setAttribute("class" ,"choi bak");
         })
         light = false;
     }else{
         body.style.backgroundColor = "white";
         para.forEach((p)=>{
             p.style.color= "black";
+        });
+        choices.forEach((i)=>{
+            i.setAttribute("class" ,"choi");
         })
         light = true;
     }

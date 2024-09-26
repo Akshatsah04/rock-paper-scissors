@@ -37,6 +37,10 @@ img{
     background-color: black;      
 }
 
+.bak:hover{
+    background-color: white;
+}
+
 .scoreboard{
     display: flex;
     justify-content: center;
